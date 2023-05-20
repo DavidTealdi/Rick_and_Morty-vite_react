@@ -7,15 +7,15 @@ function NavPage( { page, setPage } ) {
             
             <button className="btn btn-primary btn-sm" onClick={() => setPage(page - 1)} >
                 
-                volver Paguina 
+                volver Pagina 
             
             </button>
             
-            <p>Paguina: {page}</p>
+            <p>Pagina: {page}</p>
             
             <button className="btn btn-primary btn-sm" onClick={() => setPage(page + 1)} >
                 
-                Paguina siguiente 
+                Pagina siguiente 
             
             </button>
         
